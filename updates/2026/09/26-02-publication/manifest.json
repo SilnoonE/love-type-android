@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "2026/09/26-02-publication",
+  "policy": "append-only",
+  "files": {
+    "README.md": {
+      "sha256": "dcceeb38021bb67b3b9536c118a0b076b6fde67713f3a9cfd46b0e3022ac856e",
+      "bytes": 800
+    },
+    "docs/PUBLICATION.md": {
+      "sha256": "cf64f4cc757643db2cd4d38c9894ba42f0bd610e86fb0c3baec7b8b6616bf9ec",
+      "bytes": 1147
+    },
+    "verification/README.md": {
+      "sha256": "616651ee8e15ff69390e7f2d539e21c39120d80cbd210ef94fb2342324b93ea1",
+      "bytes": 827
+    },
+    "verification/scan.json": {
+      "sha256": "5f77277c239c9222518fe4c0e05b5972268a5f75e32734ff98543a0fd1aa0714",
+      "bytes": 161
+    }
+  }
+}

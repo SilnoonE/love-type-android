@@ -1,4 +1,4 @@
-"""Append-only Android snapshot export. Python 3 standard library only."""
+"""Append-only Android snapshot export. PDF checks require pypdf."""
 from pathlib import Path
 import argparse, hashlib, json, re, subprocess, sys
 from datetime import date
@@ -25,6 +25,19 @@ def scan_text(text,label):
     if SECRETS.search(text):raise ValueError('Potential secret in '+label)
     ids=re.findall(r'ca-app-pub-\d+[~/]\d+',text)
     if any(x not in TEST_IDS.values() for x in ids):raise ValueError('Production advertising ID in '+label)
+
+def check_public_pdf(raw):
+    import io
+    try:
+        from pypdf import PdfReader
+    except ImportError as exc:
+        raise ValueError("Install pypdf to check the public PDF page limit") from exc
+    try:
+        pages = len(PdfReader(io.BytesIO(raw)).pages)
+    except Exception as exc:
+        raise ValueError("Cannot inspect PDF") from exc
+    if not 1 <= pages <= 10:
+        raise ValueError("Public PDF must contain 1 to 10 pages")
 
 def clean(text,rel):
     ids=re.findall(r'ca-app-pub-\d+[~/]\d+',text)
@@ -70,6 +83,7 @@ def seal(value):
         if f.is_file() and f.name!='manifest.json':
             if f.is_symlink():raise ValueError('Symlink in archive')
             raw=f.read_bytes()
+            if f.suffix.lower()=='.pdf':check_public_pdf(raw)
             if f.suffix.lower() in TEXT or f.name=='gradlew':
                 normalized=raw.replace(b'\r\n',b'\n')
                 if normalized!=raw:f.write_bytes(normalized)
@@ -93,6 +107,7 @@ def main():
     if args.guide:
         pdf=args.guide.read_bytes()
         if not pdf.startswith(b'%PDF-'):raise ValueError('Guide must be a PDF')
+        check_public_pdf(pdf)
     target.mkdir(parents=True,exist_ok=False)
     for rel,raw in content.items():
         dst=target/'source'/rel;dst.parent.mkdir(parents=True,exist_ok=True);dst.write_bytes(raw)

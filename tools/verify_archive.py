@@ -1,7 +1,7 @@
 """Verify snapshot manifests and preserve every file from prior snapshots."""
 from pathlib import Path
 import argparse, hashlib, json, re, subprocess, sys
-from add_update import ROOT, TEXT, scan_text
+from add_update import ROOT, TEXT, scan_text, check_public_pdf
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--base');a=parser.parse_args()
@@ -16,6 +16,7 @@ def main():
             p=(folder/rel).resolve()
             if not p.is_relative_to(folder.resolve()) or p.is_symlink():raise ValueError('Bad manifest path')
             raw=p.read_bytes()
+            if p.suffix.lower()=='.pdf':check_public_pdf(raw)
             if hashlib.sha256(raw).hexdigest()!=item['sha256'] or len(raw)!=item['bytes']:raise ValueError('Snapshot hash changed: '+rel)
             if p.suffix.lower() in TEXT:scan_text(raw.decode('utf-8-sig'),rel)
             if re.search(r'(?i)(^|/)(?:local.properties|testkey[^/]*|google-services.json)$|\.(?:jks|keystore|apk|aab|p12|db)$',rel):raise ValueError('Forbidden path: '+rel)

@@ -6,3 +6,4 @@
 |---|---|---|---|---|
 | 2026-09-26 | [오늘의 연애 상황 질문과 답변 카드 모음집](2026/09/26-01-daily-cards/README.md) | [소스](2026/09/26-01-daily-cards/source/) | [문서](2026/09/26-01-daily-cards/docs/) | [검증](2026/09/26-01-daily-cards/verification/) |
 | 2026-09-26 | [전체 소스 공개 전환](2026/09/26-02-publication/README.md) | [기존 소스 보존](2026/09/26-01-daily-cards/source/) | [공개 범위](2026/09/26-02-publication/docs/PUBLICATION.md) | [검증](2026/09/26-02-publication/verification/README.md) |
+| 2026-09-26 | [공개 문서를 8쪽 요약으로 정정](2026/09/26-03-public-summary/README.md) | [기존 소스 보존](2026/09/26-01-daily-cards/source/) | [8쪽 PDF](2026/09/26-01-daily-cards/docs/code-guide.pdf) | [정정 검증](2026/09/26-03-public-summary/README.md#검증) |

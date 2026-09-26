@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FifteenthappPshocology" parent="Theme.Material3.Light.NoActionBar">
+        <!-- 고정된 색상 지정 -->
+        <item name="android:windowBackground">@color/bg_white</item>
+        <item name="android:statusBarColor">@color/bg_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/main_pink</item>
+        <item name="colorOnPrimary">@color/card_white</item>
+    </style>
+
+    <style name="Theme.FifteenthappPshocology" parent="Base.Theme.FifteenthappPshocology" />
+</resources>

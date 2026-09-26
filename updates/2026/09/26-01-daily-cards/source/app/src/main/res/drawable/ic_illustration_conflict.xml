@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#F3EEFF"
+        android:pathData="M48,0A48,48 0,1 1,0,48A48,48 0,0 1,48,0Z" />
+    <!-- Left Bubble -->
+    <path
+        android:fillColor="#FF9C88FF"
+        android:pathData="M18,28c0,-5 4,-9 9,-9h22c5,0 9,4 9,9v16c0,5 -4,9 -9,9H30l-8,7v-7h-4c-5,0 -9,-4 -9,-9Z" />
+    <!-- Right Bubble facing left -->
+    <path
+        android:fillColor="#FFB93F69"
+        android:pathData="M38,44c0,-5 4,-9 9,-9h22c5,0 9,4 9,9v16c0,5 -4,9 -9,9H66v7l-8,-7H47c-5,0 -9,-4 -9,-9Z" />
+    <!-- Dots in left bubble -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,36a3,3 0,1,1 6,0a3,3 0,1,1 -6,0M36,36a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+    <!-- Dots in right bubble -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M50,52a3,3 0,1,1 6,0a3,3 0,1,1 -6,0M60,52a3,3 0,1,1 6,0a3,3 0,1,1 -6,0" />
+</vector>

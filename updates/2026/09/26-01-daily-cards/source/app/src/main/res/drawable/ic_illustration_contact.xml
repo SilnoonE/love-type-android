@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#EEF4FF"
+        android:pathData="M48,0A48,48 0,1 1,0,48A48,48 0,0 1,48,0Z" />
+    <!-- Large Speech Bubble -->
+    <path
+        android:fillColor="#FF70A6FF"
+        android:pathData="M20,28c0,-5.5 4.5,-10 10,-10h32c5.5,0 10,4.5 10,10v20c0,5.5 -4.5,10 -10,10H36l-10,8v-8h-0c-5.5,0 -10,-4.5 -10,-10Z" />
+    <!-- Small Overlay Speech Bubble -->
+    <path
+        android:fillColor="#FFFF85A1"
+        android:pathData="M42,42c0,-4.4 3.6,-8 8,-8h22c4.4,0 8,3.6 8,8v14c0,4.4 -3.6,8 -8,8h-4v6l-7.5,-6H50c-4.4,0 -8,-3.6 -8,-8Z" />
+    <!-- Heart in center -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M46,38 C43.5,35 39,32 39,28 C39,25 41.2,23 44,23 C45.6,23 46,24 46,24 C46,24 46.4,23 48,23 C50.8,23 53,25 53,28 C53,32 48.5,35 46,38 Z" />
+</vector>

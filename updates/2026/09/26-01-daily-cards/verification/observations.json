@@ -1,0 +1,27 @@
+{
+  "sourceQuestionCount": 30,
+  "sourceOptionCount": 120,
+  "pdfPages": 8,
+  "sourceMatchesGuideSnapshot": true,
+  "priorTestResults": [
+    {
+      "name": "com.testapp.fifteenthapp_pshocology.DailyFeatureUnitTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-09-25T18:13:27.448Z"
+    },
+    {
+      "name": "com.testapp.fifteenthapp_pshocology.ExampleUnitTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-09-25T18:13:27.486Z"
+    }
+  ],
+  "rerunAndroidBuild": false,
+  "rerunAndroidTests": false,
+  "deviceUiTest": false,
+  "publicationSourceFiles": 85,
+  "publicSummaryReplacement": true
+}

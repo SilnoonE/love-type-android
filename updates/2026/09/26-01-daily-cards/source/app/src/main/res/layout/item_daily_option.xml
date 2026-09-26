@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="6dp"
+    android:background="@drawable/bg_option_unselected"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:minHeight="60dp"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Option Indicator (A, B, C, D) -->
+    <TextView
+        android:id="@+id/tv_option_id"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/bg_chip"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#FFB93F69"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <!-- Option Text -->
+    <TextView
+        android:id="@+id/tv_option_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="2dp"
+        android:text="푹 쉬라고 하고 다음 약속을 잡는다"
+        android:textColor="#FF2D2D2D"
+        android:textSize="15sp" />
+
+    <!-- Checkmark Icon (Visible when selected) -->
+    <ImageView
+        android:id="@+id/iv_option_check"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="선택됨"
+        android:src="@drawable/ic_check_circle"
+        android:visibility="gone" />
+
+</LinearLayout>

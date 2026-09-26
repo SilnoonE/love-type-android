@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1080px"
+    android:layout_height="wrap_content"
+    android:background="#FFFFF9FA"
+    android:orientation="vertical"
+    android:padding="60px">
+
+    <!-- Card Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card_result"
+        android:elevation="4px"
+        android:orientation="vertical"
+        android:padding="60px">
+
+        <!-- Top Row: Date and Topic Chip -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_share_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2025. 09. 26"
+                android:textColor="#FF757575"
+                android:textSize="36px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_share_chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_chip"
+                android:paddingHorizontal="32px"
+                android:paddingVertical="12px"
+                android:text="데이트"
+                android:textColor="#FFB93F69"
+                android:textSize="32px"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Illustration -->
+        <ImageView
+            android:id="@+id/iv_share_illustration"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40px"
+            android:src="@drawable/ic_illustration_date" />
+
+        <!-- Subheader: 오늘의 선택 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32px"
+            android:text="오늘의 선택"
+            android:textColor="#FF757575"
+            android:textSize="36px" />
+
+        <!-- Result Title -->
+        <TextView
+            android:id="@+id/tv_share_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16px"
+            android:text="쉼도 약속도 챙기는 편"
+            android:textColor="#FFB93F69"
+            android:textSize="56px"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginVertical="36px"
+            android:background="#FFEEEEEE" />
+
+        <!-- Interpretation -->
+        <TextView
+            android:id="@+id/tv_share_interpretation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="12px"
+            android:text="상대의 휴식을 존중하면서 다음 만남도 이어가고 싶어요."
+            android:textColor="#FF2D2D2D"
+            android:textSize="40px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginVertical="36px"
+            android:background="#FFEEEEEE" />
+
+        <!-- Label: 이렇게 말해볼까요? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="💬 이렇게 말해볼까요?"
+            android:textColor="#FFB93F69"
+            android:textSize="36px"
+            android:textStyle="bold" />
+
+        <!-- Conversation -->
+        <TextView
+            android:id="@+id/tv_share_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16px"
+            android:background="#FFFFF0F3"
+            android:lineSpacingExtra="10px"
+            android:padding="32px"
+            android:text="“오늘은 푹 쉬어. 우리 다음엔 언제 보면 좋을까?”"
+            android:textColor="#FF2D2D2D"
+            android:textSize="38px"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginVertical="36px"
+            android:background="#FFEEEEEE" />
+
+        <!-- Original Question -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="❓ 오늘의 질문"
+            android:textColor="#FF757575"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_share_question_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:lineSpacingExtra="8px"
+            android:text="약속 당일, 상대가 “오늘은 혼자 쉬고 싶어”라고 한다면?"
+            android:textColor="#FF2D2D2D"
+            android:textSize="36px" />
+
+        <!-- Selected Answer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28px"
+            android:text="✅ 내가 고른 답"
+            android:textColor="#FF757575"
+            android:textSize="32px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_share_selected_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:lineSpacingExtra="8px"
+            android:text="푹 쉬라고 하고 다음 약속을 잡는다"
+            android:textColor="#FF2D2D2D"
+            android:textSize="36px" />
+
+    </LinearLayout>
+
+    <!-- Footer Banner inside share image -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48px"
+            android:layout_height="48px"
+            android:src="@drawable/mainheart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16px"
+            android:text="나의 연애 취향 카드"
+            android:textColor="#FFB93F69"
+            android:textSize="36px"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

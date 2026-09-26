@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#FFF8DF"
+        android:pathData="M48,0A48,48 0,1 1,0,48A48,48 0,0 1,48,0Z" />
+    <!-- Compass Ring -->
+    <path
+        android:fillColor="#FF2D2D2D"
+        android:pathData="M48,20 A28,28 0 1,1 47.9,20 Z M48,26 A22,22 0 1,0 48.1,26 Z" />
+    <!-- Compass Needle Pink -->
+    <path
+        android:fillColor="#FFFF85A1"
+        android:pathData="M48,28 L54,48 L48,44 Z" />
+    <!-- Compass Needle Dark Pink -->
+    <path
+        android:fillColor="#FFB93F69"
+        android:pathData="M48,28 L42,48 L48,44 Z" />
+    <!-- Compass Needle Light Pink -->
+    <path
+        android:fillColor="#FFFFD1DC"
+        android:pathData="M48,68 L42,48 L48,52 Z" />
+    <!-- Compass Needle Grey -->
+    <path
+        android:fillColor="#FF757575"
+        android:pathData="M48,68 L54,48 L48,52 Z" />
+    <!-- Center Pin -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M48,45 A3,3 0 1,1 47.9,45 Z" />
+</vector>

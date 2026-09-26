@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "snapshotId": "2026/09/26-01-daily-cards",
+  "policy": "append-only",
+  "files": {
+    "README.md": {
+      "sha256": "d3fdf897fdad599a03e28f0f09d72d2135a26b5c748b98710cdb11e3e1bf23b6",
+      "bytes": 2380
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "78ff8f25403ce4f6712f5d52c793454a8fd999939ecd4bc96f34a9a66fa9f22e",
+      "bytes": 2589
+    },
+    "docs/CODE_GUIDE.md": {
+      "sha256": "22fba9cb45d0e15c74a5c7f9e7ab5fd0d9d3a226bf87a79e28b8505ef45796e8",
+      "bytes": 9698
+    },
+    "docs/DEVELOPMENT.md": {
+      "sha256": "01110e0fc728c39edafea15faec58af822eed18f7b10312ba1a1a9514da8b48a",
+      "bytes": 2471
+    },
+    "docs/EXPORT_NOTES.md": {
+      "sha256": "3618de15fd6736b96974724d85e8498d00d615bb4481ad8c4337791276688906",
+      "bytes": 407
+    },
+    "docs/KNOWN_ISSUES.md": {
+      "sha256": "942143c902e2581be889bc60062ed4139b8330ed1ebdba8bf8a691d1cb2b5b43",
+      "bytes": 2142
+    },
+    "docs/code-guide.pdf": {
+      "sha256": "67fb4da0853bb30c315a4f5a26b76b1d29d5d5856d6415d7396ae33ef7c24483",
+      "bytes": 151587
+    },
+    "source/app/build.gradle.kts": {
+      "sha256": "428e0bbc0b04de327f6e251647a34d24032465a48d0926b561017293fdd91e9a",
+      "bytes": 1296
+    },
+    "source/app/proguard-rules.pro": {
+      "sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2",
+      "bytes": 751
+    },
+    "source/app/src/androidTest/java/com/testapp/fifteenthapp_pshocology/ExampleInstrumentedTest.kt": {
+      "sha256": "c3f0edcf937fc0d89c997a17e4a53e134ddfa15f26f56f495a52bbe90d0f9ad8",
+      "bytes": 698
+    },
+    "source/app/src/main/AndroidManifest.xml": {
+      "sha256": "7a2091ea9adf6bf5069f528c4ce70635d27c3979b2eddfc9cd60dc71e0d53d0e",
+      "bytes": 1789
+    },
+    "source/app/src/main/ic_launcher-playstore.png": {
+      "sha256": "03720b8d3b74fc5b97d8493fa57f8f8b9b57919ce3d0ff0b1379be6c05aca0a2",
+      "bytes": 173928
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/AppData.kt": {
+      "sha256": "ee5d704ddd2c53ac25e7161c88e0f13c3440cee77544c51a91a4ffcd6aad099e",
+      "bytes": 27736
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyCardAdapter.kt": {
+      "sha256": "96126ea67ab7c49afc64cf83ac37dbd01e5fb6c3a63579e49ee1b2fa3cc7a2eb",
+      "bytes": 2815
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyCardModels.kt": {
+      "sha256": "bd88c9b95c21c800db6944aa7eafb7ab80c3ee5f2ef8dfabb8a11963bf82a9ea",
+      "bytes": 1006
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyCardRepository.kt": {
+      "sha256": "cdb699a32e8b0b742b0551b3ab8714f910fa0e54cdfacd6a9a0b7e61dc90dc31",
+      "bytes": 8605
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyCardShareRenderer.kt": {
+      "sha256": "0020713269062a9435025b76fb122baff3735badf3ade6785daa1f07d1dadf3f",
+      "bytes": 4714
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyQuestionData.kt": {
+      "sha256": "41208bd427e20f1ef9ae29c3bb30e815cbd2a559968895e50e9a4c9272a7d5e5",
+      "bytes": 40176
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/DailyQuestionScheduler.kt": {
+      "sha256": "d437b6cdc1eeb2df227a5a72e434b35d724a9a30e46c4ca2782fc58297c5b695",
+      "bytes": 1839
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/MainActivity.kt": {
+      "sha256": "15330dd2cd6d9db39b876ef73ca372151fbceee86eb45cf45a2a683d3828bf61",
+      "bytes": 40435
+    },
+    "source/app/src/main/java/com/testapp/fifteenthapp_pshocology/Models.kt": {
+      "sha256": "887a7df838081f7dc1636172b9ca8705e2264132dc09c76bfc0f56d259e3878b",
+      "bytes": 608
+    },
+    "source/app/src/main/res/drawable/balanced.png": {
+      "sha256": "2456a6b438e62cd9c9e3270bcfb1310c60fe8a6a73858227e28b8ed08877141a",
+      "bytes": 1847021
+    },
+    "source/app/src/main/res/drawable/bg_answer_button.xml": {
+      "sha256": "e7fdc6776e051b8c93fbe90148a8ba5be93499d7ad8dd839130654f54e740894",
+      "bytes": 588
+    },
+    "source/app/src/main/res/drawable/bg_badge_complete.xml": {
+      "sha256": "395b88a19569cf6ecde81f8c83eab5e03651db4b0e6869bb6bd265ef5ad11dc4",
+      "bytes": 300
+    },
+    "source/app/src/main/res/drawable/bg_button_main.xml": {
+      "sha256": "9e07fcedb465fb62e06baf7eece66bb862c1e436c899f3bb54c9b97b7681095f",
+      "bytes": 193
+    },
+    "source/app/src/main/res/drawable/bg_button_secondary.xml": {
+      "sha256": "306af27afa073e558ca83094b588bdece423a3de43e448ffc8a7e38574ffe468",
+      "bytes": 254
+    },
+    "source/app/src/main/res/drawable/bg_card_result.xml": {
+      "sha256": "eab1f8e6eb0f48aaaf28cb0e7f3a470a0cc220f75e2c4567a983d59ab9e7011b",
+      "bytes": 278
+    },
+    "source/app/src/main/res/drawable/bg_chip.xml": {
+      "sha256": "4e11bcc80de4ec3d1d2284e37edc06e057abcf47f102c6982d62efedda5fed75",
+      "bytes": 223
+    },
+    "source/app/src/main/res/drawable/bg_option_selected.xml": {
+      "sha256": "23ac200a7b69120f5c2371e76caab4ecc2264990246a8a2dfa612c5da9310657",
+      "bytes": 300
+    },
+    "source/app/src/main/res/drawable/bg_option_unselected.xml": {
+      "sha256": "4c8e80860b4b47b6333817c3412653564a6c4f29be5328c2dd7e7ecf8ac4e0f5",
+      "bytes": 302
+    },
+    "source/app/src/main/res/drawable/bg_progress.xml": {
+      "sha256": "45e8013e3be1537fb199f3c5d8fb464e30587f91fcab82cabaa9dd02aa8cb8a0",
+      "bytes": 558
+    },
+    "source/app/src/main/res/drawable/bg_tag.xml": {
+      "sha256": "8ac0af8ef4bc93352cb7ed1ab74cd2546238c55372adbf0de69cf71f7bc56ed6",
+      "bytes": 199
+    },
+    "source/app/src/main/res/drawable/clingy.png": {
+      "sha256": "776d679d604263174cc3614aefae16697d3cb5af2c78b6e5b50c2fe730d258ab",
+      "bytes": 1508032
+    },
+    "source/app/src/main/res/drawable/distance.png": {
+      "sha256": "247505e11516e8728809fcaa26b452dea63160e4757294a6a7ffc798f76b8248",
+      "bytes": 2028156
+    },
+    "source/app/src/main/res/drawable/emo_clingy.png": {
+      "sha256": "ad1186c433eb19ed3d243839936d3b872b3c83b4accaa8bfad0f2e454b150eb0",
+      "bytes": 1678446
+    },
+    "source/app/src/main/res/drawable/emo_leading.png": {
+      "sha256": "8e2264b908e400551affc512afbcec9842462f7d3059af6da7de62e893f6072e",
+      "bytes": 1254007
+    },
+    "source/app/src/main/res/drawable/emotional.png": {
+      "sha256": "fa84b8cffecaccef630b1522d71d1f4888c38ce1a9b9a58b34b5a7a309fbc688",
+      "bytes": 1395277
+    },
+    "source/app/src/main/res/drawable/free.png": {
+      "sha256": "766d931e94753e85d081a94fb25f007103bd30517594e717331d33caaf9c9acd",
+      "bytes": 1718590
+    },
+    "source/app/src/main/res/drawable/ic_arrow_back.xml": {
+      "sha256": "4931daa9cf33263dd0588c8dd97bccb7ac4a13f76ac8287e263a1d0553a7201e",
+      "bytes": 371
+    },
+    "source/app/src/main/res/drawable/ic_check_circle.xml": {
+      "sha256": "0ad7f0fd80ce94852a091a26e46117c41388c86ccb57150a4043d2de240e9b51",
+      "bytes": 431
+    },
+    "source/app/src/main/res/drawable/ic_favorite_border.xml": {
+      "sha256": "0f2164aeffd00f532a0e39db3672764133f188b1a03a214c754802edc51abaed",
+      "bytes": 668
+    },
+    "source/app/src/main/res/drawable/ic_favorite_filled.xml": {
+      "sha256": "23b1fd7838fe57c0fb29f130d85b1f33265a6c9bf623119f6507c88c88bf0688",
+      "bytes": 488
+    },
+    "source/app/src/main/res/drawable/ic_illustration_affection.xml": {
+      "sha256": "c37f33cd0455a770b9724741d9282312ec709bcdaf57149e016a8a44830726a2",
+      "bytes": 1163
+    },
+    "source/app/src/main/res/drawable/ic_illustration_conflict.xml": {
+      "sha256": "a1cd254667c27f97c0a996cde0046ab50a9f34826a16bcd4e107e7733627eab2",
+      "bytes": 1135
+    },
+    "source/app/src/main/res/drawable/ic_illustration_contact.xml": {
+      "sha256": "bab7462dbdaa76dea6d40bdda9bf7b0372cba58fe50c99e9aa217f0e168c907c",
+      "bytes": 1070
+    },
+    "source/app/src/main/res/drawable/ic_illustration_date.xml": {
+      "sha256": "87a3251073ec43d2aa969ca77f922923814b40935ff6ce32c7af6d3fb33d4002",
+      "bytes": 1101
+    },
+    "source/app/src/main/res/drawable/ic_illustration_space.xml": {
+      "sha256": "619391863a719e3e39abcc33fab1bc9dbb4057fc1629f5e1292f4792d4bdfb4a",
+      "bytes": 923
+    },
+    "source/app/src/main/res/drawable/ic_illustration_values.xml": {
+      "sha256": "7497905139318027bed26f36cb75e176a40650cb72ad8f0c6f602cc61487cc19",
+      "bytes": 1220
+    },
+    "source/app/src/main/res/drawable/ic_launcher_background.xml": {
+      "sha256": "720fa3ffbfe2c5b4a340d5dcd7efde0d2069a51f18404835246c54e63ef761d4",
+      "bytes": 4867
+    },
+    "source/app/src/main/res/drawable/ic_launcher_foreground.xml": {
+      "sha256": "b27d486b9529d35fe31bda300ab1c2323407e848e88f7a713e105f6fd2c7d7ef",
+      "bytes": 1703
+    },
+    "source/app/src/main/res/drawable/leading.png": {
+      "sha256": "67224de8f811391356baf295e71ed2c9cc9f71c5371353a1efa816aec3a0d584",
+      "bytes": 1004083
+    },
+    "source/app/src/main/res/drawable/mainheart.png": {
+      "sha256": "0b676a63328a1f449e35ee9d41cb306e2d1b8085584be5a5ddc005b5996c5bf3",
+      "bytes": 2041944
+    },
+    "source/app/src/main/res/layout/activity_main.xml": {
+      "sha256": "c9c8ed29dac39fe7ec895bdadeabaf45d9f98dd7ff98057657f881390f44e1e4",
+      "bytes": 78001
+    },
+    "source/app/src/main/res/layout/item_answer.xml": {
+      "sha256": "f2b5b3224f655c78d6986de97d5a4d13aa4e86ba00230ca1c9cfe7b9b65157e4",
+      "bytes": 522
+    },
+    "source/app/src/main/res/layout/item_daily_card.xml": {
+      "sha256": "5e9960c571b839c095ee9ef362bbd80ab02cabce50b8a7af50084e204d36d796",
+      "bytes": 4198
+    },
+    "source/app/src/main/res/layout/item_daily_option.xml": {
+      "sha256": "506299f4ff2c942ca7b137a96a6163bcf98e95c762af68cc6ea5a7a2a5c3da40",
+      "bytes": 1653
+    },
+    "source/app/src/main/res/layout/view_share_card.xml": {
+      "sha256": "ab529097a6ba1c8b4657bb3e95b7ae0dbcea7cdaa2e1dbcc8f4a322eb0968fe7",
+      "bytes": 5453
+    },
+    "source/app/src/main/res/layout/view_share_daily_card.xml": {
+      "sha256": "d19e853d02dd8d75736916a69620964a82882a3fe90ad23e9cb918fe740d493e",
+      "bytes": 7241
+    },
+    "source/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml": {
+      "sha256": "81927c8477f888dcc48c966ed13efcf71428d7709280e32135a516b7a156dd50",
+      "bytes": 269
+    },
+    "source/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml": {
+      "sha256": "81927c8477f888dcc48c966ed13efcf71428d7709280e32135a516b7a156dd50",
+      "bytes": 269
+    },
+    "source/app/src/main/res/mipmap-hdpi/ic_launcher.webp": {
+      "sha256": "0fd1d5e4e7064da15673bdf3b5f06d1f61d82dfae8b29c0d37d945ea2b8426e3",
+      "bytes": 2960
+    },
+    "source/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.webp": {
+      "sha256": "783358f745e645f57aaf363365fc7e7665d3d481cc590bf22eadc42f27bacc1e",
+      "bytes": 6324
+    },
+    "source/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp": {
+      "sha256": "6d7415c9c28746caa2df101b3e090cd46c992b4f282f42dd0ebb0963cd96db7b",
+      "bytes": 4500
+    },
+    "source/app/src/main/res/mipmap-mdpi/ic_launcher.webp": {
+      "sha256": "da781fa44834ff8ae0e3c4ebcb17fc45b8c5efc87c47378b7728cd4c08f0ac00",
+      "bytes": 1814
+    },
+    "source/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.webp": {
+      "sha256": "cad694101a6c653f7d551db3215d7f260c0ac392683ab0ef1bd59bbc5b287e5c",
+      "bytes": 3498
+    },
+    "source/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp": {
+      "sha256": "16a71f228f5760f05e03d8ee4a3337120f20fd2dbca26b2992abbdd622ffbc9c",
+      "bytes": 2624
+    },
+    "source/app/src/main/res/mipmap-xhdpi/ic_launcher.webp": {
+      "sha256": "2b99115887843ce1e79787993e6ac0d231bcb9f82f56ce5eb38321ccff0134e4",
+      "bytes": 4374
+    },
+    "source/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.webp": {
+      "sha256": "0a263079451b429fb134e7441cc7216287f8e10d452a0286c8ba8690b2bbfe3f",
+      "bytes": 9954
+    },
+    "source/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp": {
+      "sha256": "253c030ae7ed050d5854b94c1854c32a62d0a91cee6e8dbc348d44794d8094d7",
+      "bytes": 7064
+    },
+    "source/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp": {
+      "sha256": "eeff18fa14d705887f31c16eae8d7b5880245b4e2ef701a2b7308bcf38d1eba6",
+      "bytes": 7908
+    },
+    "source/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.webp": {
+      "sha256": "d3c2fa7675530a16062204dda8390f90d4dbd4487728da0abbaba0df39130826",
+      "bytes": 20214
+    },
+    "source/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp": {
+      "sha256": "b8f4a896c48dd61688ca8dcbf2abc63cad0ecd6abd90702793b3861de39052a5",
+      "bytes": 12130
+    },
+    "source/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp": {
+      "sha256": "715047616ba4b3b52a9847686dbed12c248b72c9440960150e24a86883166b7b",
+      "bytes": 12174
+    },
+    "source/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.webp": {
+      "sha256": "4d4491f5e399d35bd510b4de299e5180e182e64542e4921bd6fc96d4cb79d251",
+      "bytes": 35954
+    },
+    "source/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp": {
+      "sha256": "68cdf03fb3a1c8657a2fbca2e74a09276a755a5750b8fd855df9996d579bf61e",
+      "bytes": 18862
+    },
+    "source/app/src/main/res/values-night/themes.xml": {
+      "sha256": "bdd1f7e6f724e3f38462180581f7aab5e85f508374cfcb03fdd51e46aae1a1db",
+      "bytes": 343
+    },
+    "source/app/src/main/res/values/colors.xml": {
+      "sha256": "7830aeaac883d01bdd974945e9a7c74d0840847cd935526e55b3c02362d48702",
+      "bytes": 485
+    },
+    "source/app/src/main/res/values/strings.xml": {
+      "sha256": "c8cde4807484ee3a89bfd5fa81efd61677cd2c98c310f0cfc514294fc49708fe",
+      "bytes": 918
+    },
+    "source/app/src/main/res/values/themes.xml": {
+      "sha256": "5325bbe5c02a816d3ad588bc8b1a1a62117dd6b0c295f3b2e41a939a2bb9559b",
+      "bytes": 670
+    },
+    "source/app/src/main/res/xml/backup_rules.xml": {
+      "sha256": "173c90cbeb773e6a65b430581a85720dc5c7ddba17d543cfefe3d2aed9b9a7a4",
+      "bytes": 479
+    },
+    "source/app/src/main/res/xml/data_extraction_rules.xml": {
+      "sha256": "30ae995624fd57d839bf0d638900f8d2c17c703d6e7d6c8640708a8a7cac2402",
+      "bytes": 552
+    },
+    "source/app/src/main/res/xml/file_paths.xml": {
+      "sha256": "221ed1bc53c506f85d6564de51ab49b92df0139c448de30f4598f67ecf64037e",
+      "bytes": 110
+    },
+    "source/app/src/test/java/com/testapp/fifteenthapp_pshocology/DailyFeatureUnitTest.kt": {
+      "sha256": "50ab9c57c951a3c741e92ebc37f1c036bff442619db2d1a4b8cb07d0a3a0ebbb",
+      "bytes": 3524
+    },
+    "source/app/src/test/java/com/testapp/fifteenthapp_pshocology/ExampleUnitTest.kt": {
+      "sha256": "f4d8568b72ab888675773b8f56a9d420e6a28fcf0a6bfcfc26b2f14a15d0d41b",
+      "bytes": 360
+    },
+    "source/build.gradle.kts": {
+      "sha256": "e43ae765ce974092dd1b5c1a772b525cf537c86aba700ed2a25f525c2dcf6ccc",
+      "bytes": 168
+    },
+    "source/gradle.properties": {
+      "sha256": "0c64dc4bd012fbcb1b99318d519ac007261fab30c2ad9d3f04d8ed4282e128e9",
+      "bytes": 1347
+    },
+    "source/gradle/libs.versions.toml": {
+      "sha256": "a7403f55aecb2e492503e33115ef4e96500d3c715985700089561cf5d8b93613",
+      "bytes": 1372
+    },
+    "source/gradle/wrapper/gradle-wrapper.jar": {
+      "sha256": "76805e32c009c0cf0dd5d206bddc9fb22ea42e84db904b764f3047de095493f3",
+      "bytes": 45457
+    },
+    "source/gradle/wrapper/gradle-wrapper.properties": {
+      "sha256": "00d6f838bed1baeef75178712a70199c92ca5b8e9c46e5275199f677c2fc1fa6",
+      "bytes": 369
+    },
+    "source/gradlew": {
+      "sha256": "3238afb2aed5cb16eb7d6718077e7138059108f007b54179e9cc157c5a6e0e89",
+      "bytes": 8728
+    },
+    "source/gradlew.bat": {
+      "sha256": "94102713eb8fb22d032397924c0f38ab2da783ba60d07054339f1190a0c4e2cd",
+      "bytes": 2843
+    },
+    "source/settings.gradle.kts": {
+      "sha256": "411102ec1ad1b419a3772cca2ac95abb2c8171b46e1881eed5248a42108b264e",
+      "bytes": 636
+    },
+    "verification/README.md": {
+      "sha256": "36b9244e170ce95855572b487d32fa72ca68375557704dbe779ca2bba6525bf4",
+      "bytes": 1557
+    },
+    "verification/observations.json": {
+      "sha256": "0e8908305d5ea83d3fcda2a3b86a3ec6846b69d660fa197c478c3a78161d0ebf",
+      "bytes": 685
+    }
+  }
+}

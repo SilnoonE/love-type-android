@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">연애 성격 테스트</string>
+    <string name="intro_title">테스트 안내</string>
+    <string name="intro_subtitle">정확한 분석을 위해 아래 내용을 확인해주세요.</string>
+    <string name="intro_item_questions">문항 수</string>
+    <string name="intro_item_questions_desc">20개의 현실적인 질문</string>
+    <string name="intro_item_time">소요 시간</string>
+    <string name="intro_item_time_desc">약 2~3분 내외</string>
+    <string name="intro_item_result">분석 결과</string>
+    <string name="intro_item_result_desc">8가지 정교한 연애 유형</string>
+    <string name="intro_tip_title">Tip</string>
+    <string name="intro_tip_desc">깊게 고민하지 말고 직감에 따라 선택할 때\n가장 정확한 결과가 나옵니다.</string>
+    <string name="btn_start_test">테스트 시작하기</string>
+</resources>
